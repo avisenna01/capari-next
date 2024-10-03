@@ -15,9 +15,15 @@
   }
 }
 
-/* body {
-  font-family: "GT Alpina";
-} */
+@font-face {
+  font-family: "gtAlpina";
+  src: url("/fonts/GT-Alpina-Typewriter-thin-Trial.otf") format("opentype");
+}
+
+body {
+  font-family: "gtAlpina";
+  background: #eeedde;
+}
 
 @layer utilities {
   .text-balance {

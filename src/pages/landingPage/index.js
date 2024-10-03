@@ -1,6 +1,7 @@
 import AuthLayout from "@/components/templates/AuthLayout";
 import React from "react";
 import localFont from "next/font/local";
+import Image from "next/image";
 
 const gtAlpina = localFont({
   src: "../fonts/GT-Alpina-Typewriter-Thin-Trial.otf",
@@ -382,10 +383,12 @@ const LandingPage = () => {
           </div>
         </section>
         <section className="section-3 flex flex-col justify-center items-center">
-          <img
+          <Image
             src="https://capari.co/wp-content/themes/capari/images/cloud@2x.png"
             alt="cloud"
-            className="h-[330px]"
+            className="h-[330px] object-cover p-58"
+            width={500}
+            height={330}
           />
           <p className="section3-desc font-['GT Alpina'] text-[50px] text-center w-3/4 leading-[1.1em] tracking-[-2px] mt-[-100px]">
             Imagine a website that doesn’t just show you exist, but
@@ -399,24 +402,24 @@ const LandingPage = () => {
           <p className="craft-standout text-center mt-[30px] text-[50px] w-1/2 m-auto">
             Craft a standout website with Capari
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-[50px]">
             <div className="grid grid-cols-2 items-center justify-center gap-x-8">
-              <div className="border-b border-t w-[460px] border-[#6d653c] py-4 text-left">
+              <div className="border-b border-t w-[460px] text-[#6d653c] border-[#6d653c] py-4 text-left text-[21px]">
                 Look Nigger
               </div>
-              <div className="border-b border-t w-[460px] border-[#6d653c] py-4 text-left">
+              <div className="border-b border-t w-[460px] text-[#6d653c] border-[#6d653c] py-4 text-left text-[21px]">
                 Showcase your brand
               </div>
-              <div className="border-b border-t w-[460px] border-[#6d653c] py-4 text-left">
+              <div className="border-b border-t w-[460px] text-[#6d653c] border-[#6d653c] py-4 text-left text-[21px]">
                 Earn customer trust
               </div>
-              <div className="border-b border-t w-[460px] border-[#6d653c] py-4 text-left">
+              <div className="border-b border-t w-[460px] text-[#6d653c] border-[#6d653c] py-4 text-left text-[21px]">
                 Connect with your ideal audience
               </div>
-              <div className="border-b border-t w-[460px] border-[#6d653c] py-4 text-left">
+              <div className="border-b border-t w-[460px] text-[#6d653c] border-[#6d653c] py-4 text-left text-[21px]">
                 Stand out from the crowd
               </div>
-              <div className="border-b border-t w-[460px] border-[#6d653c] py-4 text-left">
+              <div className="border-b border-t w-[460px] text-[#6d653c] border-[#6d653c] py-4 text-left text-[21px]">
                 Raise your value
               </div>
             </div>

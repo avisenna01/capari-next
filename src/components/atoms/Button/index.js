@@ -12,7 +12,7 @@ const Button = ({
     <button
       onClick={onClick}
       type={type}
-      className={`h-10 px-6 font-semibold rounded-md ${color} ${textColor} ${size}`}
+      className={`mt-[60px] h-10 px-6 font-semibold rounded-md ${color} ${textColor} ${size}`}
     >
       {textButton}
     </button>
