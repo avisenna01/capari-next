@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <header className="flex justify-center h-1/4 items-center">
+      <header className="flex justify-center h-1/4 items-center mt-[100px]">
         <svg
           id="uuid-874387f0-409e-47e2-bd66-a709bd8949c3"
           xmlns="http://www.w3.org/2000/svg"

@@ -12,7 +12,7 @@ const LandingPage = () => {
       <AuthLayout>
         {/* <div className={`${gtAlpina.className}`}>LandingPage</div> */}
         <section className="section-1">
-          <h2 className="section1-title font-['GT Alpina'] m-auto text-center text-5xl text-[#6d653c] w-9/12 m-[20px] mb-[25px]">
+          <h2 className="section1-title font-['GT Alpina'] m-auto text-center text-5xl text-[#6d653c] w-9/12 m-[20px] my-[25px]">
             Let’s build a website that makes you the easy choice
           </h2>
           <p className="section1-p text-[#6d653c] text-center m-[20px] text-[23px] w-1/2 m-auto mb-[20px]">
@@ -347,7 +347,7 @@ const LandingPage = () => {
             </svg>
           </div>
         </section>
-        <section className="section-2">
+        <section className="section-2 mt-[80px]">
           <div className="flex justify-center items-center gap-8 mx-10">
             <p className="section2-title text-[40px]">
               In a time where brands are first experienced in the digital, the
@@ -374,8 +374,8 @@ const LandingPage = () => {
                 <h5 className="mb-[10px] text-[21px]">Missed conversions</h5>
                 <p className="text-[18px]">
                   Your website should be your top sales representative, but is
-                  it working for you? If not, you're letting potential customers
-                  slip through your fingers.
+                  it working for you? If not, you are letting potential
+                  customers slip through your fingers.
                 </p>
               </li>
             </ul>
