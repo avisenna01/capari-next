@@ -395,7 +395,7 @@ const LandingPage = () => {
             <i> sets the new standard. </i>
           </p>
         </section>
-        <section className="section-4">pagination</section>
+        {/* <section className="section-4">pagination</section> */}
 
         <section className="section-5 mt-[100px]">
           <p className="text-center text-[19px]">THE SOLUTION</p>
@@ -451,8 +451,8 @@ const LandingPage = () => {
         </section>
 
         <section className="section-6 mt-20">
-          <div className="card-list flex flex-col justify-center items-center gap-40 w-1/2 m-auto">
-            <div className="card flex justify-center">
+          <div className="card-list flex flex-col justify-center items-center gap-40 xl:w-1/2 w-3/4 m-auto">
+            <div className="card flex justify-center ">
               <div className="flex flex-col justify-around">
                 <p className="text-[32px]">
                   Design + development under one roof

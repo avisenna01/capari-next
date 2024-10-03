@@ -15,6 +15,7 @@ const Footer = () => {
           <Button textButton="Contact us" />
         </div>
       </footer>
+      {/* <marquee>capari</marquee> */}
     </>
   );
 };
