@@ -383,12 +383,12 @@ const LandingPage = () => {
           </div>
         </section>
         <section className="section-3 flex flex-col justify-center items-center">
-          <Image
+          <img
             src="https://capari.co/wp-content/themes/capari/images/cloud@2x.png"
             alt="cloud"
             className="h-[330px] object-cover p-58"
-            width={500}
-            height={330}
+            // width={500}
+            // height={330}
           />
           <p className="section3-desc font-['GT Alpina'] text-[50px] text-center w-3/4 leading-[1.1em] tracking-[-2px] mt-[-100px]">
             Imagine a website that doesn’t just show you exist, but
